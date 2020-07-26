@@ -1,0 +1,18 @@
+title: Programming Projects with Denge
+description: >-
+  I am going to add new and exclusive projects and their respective codes and
+  try to explain it to you.
+template:
+  repo: programming-projects-with-denge-template
+  name: programming-projects-with-denge
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
